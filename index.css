@@ -1,0 +1,162 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* FIRST SECTION */
+.head-card {
+    width: 350px;
+    height: 300px;
+    margin: 5px;
+    text-align: center;
+}
+a p {
+    color: black;
+}
+.carousel-inner {
+    padding-top:12px;
+    padding-bottom: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+    .head-card img {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+/* SECOND SECTION */
+.explore-recipes {
+    padding: 5px 150px 30px 150px;
+}
+.explore-recipes h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.btn-explore-recipe {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid;
+    letter-spacing: 7px;
+}
+.explore-recipes-content {
+    padding: 10px;
+}
+.explore-recipes-card {
+    width: 245px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.explore-recipes-card {
+    width: 245px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+.explore-recipes-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(255, 165, 0, 0.6);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.explore-recipes-card:hover .hover-overlay {
+    opacity: 1;
+}
+.explore-recipes-card:hover .hover-text {
+    opacity: 1;
+}
+
+/* THIRD SECTION */
+.recipe-description {
+    background-color: #FFBD59;
+    height: 85vh;
+}
+.new-recipe {
+    object-fit: cover;
+    overflow: hidden;
+}
+.thirdSection img {
+    width: 100%; 
+    height: 85vh; 
+}
+.new {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.recipe {
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: white;
+}
+.description {
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.view-new-recipe {
+    color: black;
+    letter-spacing: 5px;
+}
+
+/* FOURTH SECTION */
+.must-try-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#cook-style{
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: px;
+}
+.head-card img {
+    width: 100%;
+    height: 250px; /* Set a consistent height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/* Second section explore-recipes card image */
+.explore-recipes-card img {
+    width: 100%;
+    height: 250px; /* Same height for consistency */
+    object-fit: cover; /* Ensures the image fits neatly in its container */
+}
+.hover-effect:hover {
+    background-color: #f1f1f1; /* Change the background on hover */
+    color: #db4437; /* Change text color on hover (Google's brand color) */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a shadow on hover */
+    transform: translateY(-2px); /* Slightly lift the element */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+}
