@@ -1,0 +1,106 @@
+.all-recipes {
+    padding: 30px 150px;
+}
+.all-recipes h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.btn-all-recipe-category {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid;
+    letter-spacing: 7px;
+}
+.search-bar {
+    max-width: 300px;
+}
+.card-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.card-text {
+    margin: 0;
+}
+.active {
+    background-color: #FFBD59; /* Change color for active button */
+    color: white; /* Ensure text is readable */
+}
+.btn-all-recipe-category:hover {
+    background-color: #FFBD59; /* Change hover color */
+    color: white; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+.all-recipes-card img {
+    width: 100%; /* Make the image take the full width of the card */
+    height: 300px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px; 
+}
+
+.recipe-card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the cards */
+}
+
+.all-recipes-card {
+    width: 270px; /* Fixed width for each card */
+    height: 300px; /* Fixed height for each card */
+    margin: 20px; /* Space between cards */
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .all-recipes h1 {
+        font-size: 28px; /* Adjust heading size */
+    }
+
+    .all-recipes {
+        padding: 15px; /* Reduce padding */
+    }
+
+    .btn-all-recipe-category {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .all-recipes-card {
+        width: 100%;
+        max-width: 200px; /* Smaller card size for tablets */
+        height: 250px; /* Reduce height */
+    }
+
+    .all-recipes-card img {
+        height: 200px; /* Adjust image height */
+    }
+}
+
+@media (max-width: 576px) {
+    .all-recipes h1 {
+        font-size: 24px; /* Further reduce heading size for mobile */
+    }
+
+    .btn-all-recipe-category {
+        font-size: 9px;
+        letter-spacing: 2px;
+        padding: 8px 15px;
+    }
+
+    .all-recipes-card {
+        max-width: 180px; /* Smaller cards for mobile screens */
+        height: 220px; /* Adjust card height */
+    }
+
+    .all-recipes-card img {
+        height: 180px; /* Adjust image size */
+    }
+}

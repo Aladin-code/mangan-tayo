@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: white;
+}
+
+nav{
+    max-height: 150px;
+}
+tbody button{
+    width: 90px;
+    color: white;
+}
+#viewbtn, #addbtn{
+    background-color: #FFBD59;
+    color: white;
+
+}
+#addbtn{
+    border-radius: 50px;
+    width: 250px;
+
+}
+
+.view{
+    min-width: 700px;
+}
+#myimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFBD59;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+#ingr, #proce{
+    font-size: 16px;
+    color: #FFBD59;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.modal form input, select{
+    border: 1px solid #FFBD59 !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+}
+.form-label{
+    font-weight: 500 !important;
+}
+.modal form button{
+    background-color: #FFBD59 !important;
+    color: white !important;
+    width: 220px !important;
+    border: none !important;
+}
+.modal form textarea {
+    border: 1px solid #FFBD59 !important;   /* Custom border color */
+    border-radius: 30px !important;   /* Rounded corners */
+    resize: vertical !important;  
+    height: 40px;/* Padding for better text input */
+ 
+    
+}
+.text-cont{
+    height: 40px !important;
+}
+.full-screen-container {
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+}
+.login-form{
+    height: 500px;
+    width: 100%;
+    
+}
+
+.login .form-control{
+    border: 1px solid #FFBD59 !important;
+    border-radius: 20px !important;
+    height: 50px !important;
+
+}
+.login-form form{
+    height: auto;
+    width: 500px;
+    border-radius: 20px !important;
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+.login button{
+    background-color: #FFBD59 ;
+    color: white ;
+    width: 100% ;
+    border: none ;
+    border-radius: 20px;
+    height: 50px;
+}
+.login #createbtn{
+    width: 75%;
+    background-color: #898989;
+    margin: auto;
+}
+.logo-container {
+    width: 100%;
+    max-width: 300px; /* Limiting the maximum size of the logo container */
+    text-align: center;
+    border: 1px solid black;
+}
+
+#logo {
+    width: 100%; /* Make the image responsive to its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 30px;
+    max-width: 300px; /* Optional: Limit max width of the image */
+}
